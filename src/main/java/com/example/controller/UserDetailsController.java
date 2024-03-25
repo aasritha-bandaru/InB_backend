@@ -15,7 +15,7 @@ import com.example.entity.UserDetails;
 import com.example.repository.UserDetailsRepo;
 import com.example.service.UserDetailsService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://inbsample.s3-website.ap-south-1.amazonaws.com")
 @RestController
 @RequestMapping("/api/UserDetails")
 public class UserDetailsController {

@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.entity.Product;
 import com.example.service.ProductService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://inbsample.s3-website.ap-south-1.amazonaws.com")
 @RestController
 @RequestMapping("/api/Product")
 public class ProductController {
